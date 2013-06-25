@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">FinalExamRichardThai</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">FinalExamRichardThai</string>
+    
+    <string name="all_dice">All Dice</string>
+    <string name="this_dice">This Dice</string>
+    <string name="roll">Roll</string>
+    <string name="all_rolls">All Past Rolls</string>
+    <string name="all_rolls_format">All Rolls of %1$d-sided dice</string>
+    <string name="rolled_result_format">Roled %1$d on a %2$d-sided die</string>
+    <string name="4">4</string>
+    <string name="6">6</string>
+    <string name="8">8</string>
+    <string name="10">10</string>
+    <string name="12">12</string>
+    <string name="20">20</string>
+
+</resources>

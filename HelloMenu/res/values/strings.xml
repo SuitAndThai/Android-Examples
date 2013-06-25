@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">HelloMenu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Hello Menu</string>
+    <string name="red_background">Red Background</string>
+    <string name="yellow_background">Yellow Background</string>
+    <string name="blue_background">Blue Background</string>
+    <string name="green_background">Green Background</string>
+    <string name="black_background">Black Background</string>
+    <string name="white_background">White Background</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="text_color">Text Color</string>
+    <string name="alignment">Alignment</string>
+    <string name="top">Top</string>
+    <string name="left">Left</string>
+    <string name="select_quote">Select Quote</string>
+    <string name="movie_quote_0">Is this heaven? No, it\'s Iowa.</string>
+    <string name="movie_quote_1">...Bond. James Bond.</string>
+    <string name="movie_quote_2">Show me the money.</string>
+    <string name="movie_quote_3">I\'ll be back.</string>
+    <string name="movie_quote_4">Mama always said, Life was like a box of
+chocolates.</string>
+    <string name="movie_quote_5">Get busy livin or get busy dyin."</string>
+    <string name="movie_quote_6">Gentlemen, you can\'t fight in here! This
+is the War Room.</string>
+    <string name="movie_quote_7">It\'s good to be the king!</string>
+    <string name="movie_quote_8">Hello. My name is Inigo Montoya. You
+killed my father. Prepare to die.</string>
+    <string name="movie_quote_9">There\'s no crying in baseball!</string>
+
+</resources>

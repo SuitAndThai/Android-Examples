@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:id="@+id/resume_pref"
+        android:key="@string/key_resume"
+        android:title="@string/resume" />
+
+    <PreferenceCategory android:title="@string/change_game_color_category" >
+        <ListPreference
+            android:defaultValue="@string/red"
+            android:entries="@array/color_array"
+            android:entryValues="@array/color_array"
+            android:key="@string/key_snake_body"
+            android:summary="@string/snake_body_default_summary"
+            android:title="@string/snake_body_title" />
+        <ListPreference
+            android:defaultValue="@string/yellow"
+            android:entries="@array/color_array"
+            android:entryValues="@array/color_array"
+            android:key="@string/key_snake_head_and_apples"
+            android:summary="@string/snake_head_and_apples_default_summary"
+            android:title="@string/snake_head_and_apples_title" />
+        <ListPreference
+            android:defaultValue="@string/green"
+            android:entries="@array/color_array"
+            android:entryValues="@array/color_array"
+            android:key="@string/key_wall"
+            android:summary="@string/wall_default_summary"
+            android:title="@string/wall_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/starting_speed_category" >
+        <EditTextPreference
+            android:defaultValue="600"
+            android:key="@string/key_starting_speed"
+            android:summary="@string/starting_speed_default_summary"
+            android:title="@string/starting_speed_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/android_settings" >
+        <Preference
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/settings" >
+            <intent android:action="android.settings.SETTINGS" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

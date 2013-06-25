@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dessert_sdk_array">
+        <item>@string/cupcake</item>
+        <item>@string/donut</item>
+        <item>@string/eclair</item>
+        <item>@string/froyo</item>
+        <item>@string/gingerbread</item>
+        <item>@string/honeycomb</item>
+        <item>@string/icecream</item>
+        <item>@string/jellybean</item>
+    </string-array>
+
+</resources>

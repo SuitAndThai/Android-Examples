@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:title="@string/movie_quote_0"/>
+    <item android:title="@string/movie_quote_1"/>
+    <item android:title="@string/movie_quote_2"/>
+    <item android:title="@string/movie_quote_3"/>
+    <item android:title="@string/movie_quote_4"/>
+    <item android:title="@string/movie_quote_5"/>
+    <item android:title="@string/movie_quote_6"/>
+    <item android:title="@string/movie_quote_7"/>
+    <item android:title="@string/movie_quote_8"/>
+    <item android:title="@string/movie_quote_9"/>
+
+</menu>

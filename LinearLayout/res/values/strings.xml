@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Hello LinearLayout</string>
+    <string name="title_activity_main">Hello LinearLayout</string>
+    <string name="menu_settings">Settings</string>
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_blue">Blue</string>
+    <string name="row_one">row one</string>
+    <string name="row_two">row two</string>
+    <string name="row_three">row three</string>
+    <string name="row_four">row four</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/main_title"
+            android:textColor="@color/text_color"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/play_start" />
+
+        <Button
+            android:id="@+id/change_num_buttons_button "
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/change_num_buttons_text" />
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/about" />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/exit" />
+    </LinearLayout>
+
+</RelativeLayout>

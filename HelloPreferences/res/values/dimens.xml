@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_height">3dp</dimen>
+    <dimen name="space_between_categories">35dp</dimen>
+    <dimen name="side_padding">50dp</dimen>
+    <dimen name="category_font_size">20sp</dimen>
+    <dimen name="label_font_size">18sp</dimen>
+    <dimen name="selection_font_size">18sp</dimen>
+</resources>

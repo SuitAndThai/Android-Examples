@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="key_resume">KEY_RESUME</string>
+    <string name="key_snake_body">KEY_SNAKE_BODY</string>
+    <string name="key_snake_head_and_apples">KEY_SNAKE_HEAD_AND_APPLES</string>
+    <string name="key_wall">KEY_WALL</string>
+    <string name="key_starting_speed">KEY_STARTING_SPEED</string>
+
+</resources>

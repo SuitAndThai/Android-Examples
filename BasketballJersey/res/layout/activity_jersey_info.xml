@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="10dp" >
+
+    <TextView
+        android:id="@+id/jersey_info_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/jersey_info_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jersey_info_name_label"
+        android:hint="@string/name" />
+
+    <TextView
+        android:id="@+id/jersey_info_number_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jersey_info_name_edit_text"
+        android:text="@string/number" />
+
+    <EditText
+        android:id="@+id/jersey_info_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jersey_info_number_label"
+        android:hint="@string/number" />
+
+    <ToggleButton
+        android:id="@+id/jersey_info_toggle_color_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jersey_info_number_edit_text"
+        android:layout_marginTop="5dp"
+        android:textOff="@string/blue_jersey"
+        android:textOn="@string/red_jersey" />
+
+    <Button
+        android:id="@+id/jersey_info_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/jersey_info_toggle_color_button"
+        android:text="@string/ok" />
+
+    <Button
+        android:id="@+id/jersey_info_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/jersey_info_ok_button"
+        android:layout_toLeftOf="@id/jersey_info_ok_button"
+        android:text="@string/cancel" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory>
+        <CheckBoxPreference
+            android:key="@string/key_dogs"
+            android:summary="@string/dog_summary"
+            android:title="@string/dog_title" />
+        <CheckBoxPreference
+            android:key="@string/key_cats"
+            android:summary="@string/cat_summary"
+            android:title="@string/cat_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/dessert_category" >
+        <ListPreference
+            android:entries="@array/dessert_sdk_array"
+            android:entryValues="@array/dessert_sdk_array"
+            android:key="@string/key_dessert_sdk"
+            android:summary="@string/dessert_summary"
+            android:title="@string/dessert_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/favorite_color_category" >
+        <EditTextPreference
+            android:key="@string/key_favorite_color"
+            android:summary="@string/favorite_color_summary"
+            android:title="@string/favorite_color_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/weekday_title" >
+        <PreferenceScreen
+            android:summary="@string/weekday_summary"
+            android:title="@string/weekday_title" >
+            <CheckBoxPreference
+                android:key="@string/key_monday"
+                android:title="@string/monday" />
+            <CheckBoxPreference
+                android:key="@string/key_tuesday"
+                android:title="@string/tuesday" />
+            <CheckBoxPreference
+                android:key="@string/key_wednesday"
+                android:title="@string/wednesday" />
+            <CheckBoxPreference
+                android:key="@string/key_thursday"
+                android:title="@string/thursday" />
+            <CheckBoxPreference
+                android:key="@string/key_friday"
+                android:title="@string/friday" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

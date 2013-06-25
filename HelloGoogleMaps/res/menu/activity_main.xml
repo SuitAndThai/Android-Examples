@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="menu_settings"/>
+    <item
+        android:id="@+id/menu_toggle_satellite"
+        android:title="menu_toggle_satellite"/>
+    <item
+        android:id="@+id/menu_toggle_coordinates"
+        android:title="menu_toggle_coordinates"/>
+    <item
+        android:id="@+id/menu_toggle_address"
+        android:title="go home address"/>
+    <item
+        android:id="@+id/menu_go_home_far"
+        android:title="go home far"/>
+    <item
+        android:id="@+id/menu_go_home_close"
+        android:title="go home"/>
+
+</menu>

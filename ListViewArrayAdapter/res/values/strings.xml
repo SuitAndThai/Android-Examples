@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">ListViewArrayAdapter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ListView ArrayAdapter</string>
+    <string name="edit_text_hint">Enter a name</string>
+
+</resources>

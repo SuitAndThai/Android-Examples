@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/yellow_background"
+        android:alphabeticShortcut="y"
+        android:icon="@drawable/ic_menu_yellow_background"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/yellow_background"/>
+    <item
+        android:id="@+id/white_background"
+        android:icon="@drawable/ic_menu_white_background"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/white_background"/>
+    <item
+        android:id="@+id/blue_background"
+        android:icon="@drawable/ic_menu_blue_background"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/blue_background"/>
+    <item
+        android:id="@+id/change_text_color"
+        android:alphabeticShortcut="t"
+        android:icon="@drawable/ic_menu_brush"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/text_color">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/red_text_color"
+                    android:title="@string/red"/>
+                <item
+                    android:id="@+id/white_text_color"
+                    android:title="@string/white"/>
+                <item
+                    android:id="@+id/black_text_color"
+                    android:checked="true"
+                    android:title="@string/black"/>
+                <item
+                    android:id="@+id/green_text_color"
+                    android:title="@string/green"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/change_alignment"
+        android:alphabeticShortcut="a"
+        android:title="@string/alignment">
+        <menu>
+            <group android:checkableBehavior="all" >
+                <item
+                    android:id="@+id/top"
+                    android:title="@string/top"/>
+                <item
+                    android:id="@+id/left"
+                    android:title="@string/left"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">HelloButton</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Hello Button</string>
+    <string name="button_text">Press Me!</string>
+    <string name="message_start">You pressed the button 0 times</string>
+    <string name="message_format">You pressed the button %1$d times</string>
+    
+</resources>

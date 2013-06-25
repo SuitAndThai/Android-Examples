@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:paddingLeft="40dp"
+	android:paddingRight="40dp" android:background="@color/background">
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="vertical"
+		android:layout_gravity="center">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/alert_dialogs"
+			android:textSize="20sp" android:textColor="@color/text_color"></TextView>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/dialog_button_ok"
+			android:text="@string/about_dialogs"></Button>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/dialog_button_multiple_buttons"
+			android:text="@string/exit"></Button>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/dialog_button_select_item"
+			android:text="@string/learning_methods"></Button>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:text="@string/progress_dialog"
+			android:layout_marginTop="5dp" android:textColor="@color/text_color"></TextView>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/dialog_button_progress"
+			android:text="@string/loading"></Button>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:text="@string/custom_dialog"
+			android:layout_marginTop="5dp" android:textColor="@color/text_color"></TextView>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/dialog_button_custom"
+			android:text="@string/rose_dialog"></Button>
+	</LinearLayout>
+</LinearLayout>

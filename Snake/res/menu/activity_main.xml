@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/left_turn"
+        android:icon="@drawable/ic_left_arrow"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/left"/>
+    <item
+        android:id="@+id/right_turn"
+        android:icon="@drawable/ic_right_arrow"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/right"/>
+    <item
+        android:id="@+id/resume"
+        android:icon="@drawable/ic_menu_rotate"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/resume"/>
+    <item
+        android:id="@+id/change_speed"
+        android:alphabeticShortcut="s"
+        android:icon="@drawable/ic_menu_more"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/change_speed">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/slow"
+                    android:title="@string/slow"/>
+                <item
+                    android:id="@+id/medium"
+                    android:title="@string/medium"/>
+                <item
+                    android:id="@+id/fast"
+                    android:title="@string/fast"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_preferences"
+        android:icon="@drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/settings"/>
+
+</menu>

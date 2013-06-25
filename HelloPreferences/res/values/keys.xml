@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="key_dogs">KEY_DOGS</string>
+	<string name="key_cats">KEY_CATS</string>
+	<string name="key_dessert_sdk">KEY_DESSERT_SDK</string>
+	<string name="key_favorite_color">KEY_COLOR</string>
+	<string name="key_monday">KEY_MONDAY</string>
+	<string name="key_tuesday">KEY_TUESDAY</string>
+	<string name="key_wednesday">KEY_WEDNESDAY</string>
+	<string name="key_thursday">KEY_THURSDAY</string>
+	<string name="key_friday">KEY_FRIDAY</string>
+</resources>

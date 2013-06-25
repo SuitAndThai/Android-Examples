@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Exam2RichardThai</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_messsage">MesssageActivity</string>
+    <string name="top_message">Courage wolf!</string>
+    <string name="edit_text_hint">Enter your message</string>
+    <string name="button_text">Save Message</string>
+    <string name="add_a_message">Add a Message</string>
+    <string name="pic_desciption">this is courage wolf!</string>
+    <string name="title_activity_message_preferences">MessagePreferences</string>
+    <string name="msg_prefs_name">CONFIRMATION</string>
+    <string name="confirm_message_summary">Ask the user if they are sure they want the message they entered</string>
+    <string name="confirm_message_title">Confirm messages?</string>
+    <string name="msg_description">Is \"%s\" the right message?</string>
+    <string name="msg_dialogs">Confirm Message</string>
+    <string name="yes">Yes</string>
+    <string name="confirming_selection">Confirming selection</string>
+
+</resources>

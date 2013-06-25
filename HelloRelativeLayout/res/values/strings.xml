@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Hello RelativeLayout</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Hello RelativeLayout</string>
+    <string name="reminder">Reminder name</string>
+    <string name="done">Done</string>
+
+</resources>

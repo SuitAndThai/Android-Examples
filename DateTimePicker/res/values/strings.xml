@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">DateTimePicker</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="button_time_picker">Time Picker</string>
+    <string name="button_date_picker">Date Picker</string>
+    <string name="title_activity_time_picker">TimePicker</string>
+    <string name="toast_time_picker">It\'s %s, why aren\'t you asleep?</string>
+    <string name="toast_date_picker">It\'s %s, is it quarter break yet?</string>
+
+</resources>
